@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "TripCare",
+    "slug": "tripcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4AABDB"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "co.tripcare.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4AABDB"
+      },
+      "package": "co.tripcare.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#4AABDB"
+        }
+      ]
+    ],
+    "extra": {
+      "apiBaseUrl": "https://api.tripcare.co/v1",
+      "eas": {
+        "projectId": "your-eas-project-id"
+      }
+    }
+  }
+}

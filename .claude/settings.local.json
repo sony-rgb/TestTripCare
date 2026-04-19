@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\kaurs\\\\Downloads\\\\TripCare_FRD.docx\" -o \"C:\\\\Users\\\\kaurs\\\\Downloads\\\\TripCare_FRD.md\")",
+      "Read(//c/Users/kaurs/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/e48095c5-94f1-4450-901a-64bded1750a3/369e9457-690d-4e8a-92ed-71c1ad66e353/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\kaurs\\\\Downloads\\\\TripCare_FRD.docx\" \"C:\\\\Users\\\\kaurs\\\\Downloads\\\\TripCare_FRD_unpacked\")",
+      "Read(//c/Users/kaurs/AppData/Local/Programs//**)",
+      "Read(//c/Users/kaurs/AppData/Roaming//**)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/kaurs/OneDrive/Documents/TestTripCare/**)",
+      "Bash(done)"
+    ]
+  }
+}
